@@ -1,0 +1,9 @@
+Measures
+--------------------------
+# of answered = Calculate(distinctcount('Call Center'[Call Id]),Filter('Call Center','Call Center'[Answered (Y/N)]="Y"))
+
+# of resolved = Calculate(distinctcount('Call Center'[Call Id]),Filter('Call Center','Call Center'[Resolved]="Y"))
+
+Target Value Satisfaction = 4.5
+
+
